@@ -1,18 +1,26 @@
+.hero_section {
+    background-color: var(--third-color);
+
+}
+
+
+.hero_section_content_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
 .hero_section_content {
     display: flex;
     flex-direction: column;
     gap: .7rem;
 }
 
-.hero_section_content_box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-}
-
 .hero_section_img {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .hero_section_img img {

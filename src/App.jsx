@@ -1,12 +1,18 @@
 import React from 'react'
 import Navbar from './views/Home/Navbar/Navbar'
-import Hero from './views/Home/Hero/Hero'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './views/Home/Home'
 
 const App = () => {
   return (
     <div >
-      <Navbar />
-      <Hero />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='*' element={<div>not found 404</div>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

@@ -1,0 +1,12 @@
+.navbar_section_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.navbar_section_content_menu ul {
+    display: flex;
+    gap: 2rem;
+}

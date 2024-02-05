@@ -5,8 +5,8 @@ import Person from '@/assets/images/iambabazada.jpg'
 
 const Hero = () => {
     return (
-        <section id="hero_section" className={`${styles.hero_section} px-[170px] py-[70px]`}>
-            <div className={styles.hero_section_content_box}>
+        <section id="hero_section" className={`${styles.hero_section}  py-[70px] px-[170px]`}>
+            <div className={`${styles.hero_section_content_box} container mx-auto`}>
                 <div className={styles.hero_section_content}>
                     <p>Hey I'm Shahriyar</p>
                     <h1 className='text-5xl font-semibold'>
@@ -15,16 +15,6 @@ const Hero = () => {
                     <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, totam.</p>
                     <div>
                         <Button variant={"primary"} rounded size="lg">
-                            Download Cv
-                        </Button>
-                    </div>
-                    <div>
-                        <Button variant={"secondary"} rounded size="lg">
-                            Download Cv
-                        </Button>
-                    </div>
-                    <div>
-                        <Button variant={"accent"} rounded size="lg">
                             Download Cv
                         </Button>
                     </div>
