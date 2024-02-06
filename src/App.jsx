@@ -3,6 +3,7 @@ import Navbar from './views/Home/Navbar/Navbar'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './views/Home/Home'
 
+
 const App = () => {
   return (
     <div >

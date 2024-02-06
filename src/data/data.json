@@ -1,34 +1,54 @@
 {
-    "portfolio": [
+    "portfolios": [
         {
             "id": 1,
             "title": "Code and More",
-            "description": "lorem impsun 1",
-            "url": "https://codemore.az"
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
+            "url": "https://codemore.az",
+            "github": "https://github.com/iambabazada/kombim-web",
+            "img": "./mockup1.webp",
+            "technology": ["React", "React Router", "Redux Toolkit"]
         },
         {
             "id": 2,
             "title": "Ozzo",
-            "description": "lorem impsun 2",
-            "url": "https://ozzo.az"
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
+            "url": "https://ozzo.az",
+            "img": "./mockup1.webp",
+             "technology": ["React", "Tailwind Css", "Redux Toolkit"]
         },
         {
             "id": 3,
             "title": "Kloun.az",
-            "description": "lorem impsun 3",
-            "url": "https://www.kloun.az/"
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
+            "url": "https://www.kloun.az/",
+            "img": "./mockup1.webp",
+             "technology": ["React", "React Router", "Redux Toolkit"]
         },
+       
         {
             "id": 4,
             "title": "Njooy.az",
-            "description": "lorem impsun 4",
-            "url": "https://www.njooy.az"
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
+            "url": "https://www.njooy.az",
+            "img": "./mockup1.webp",
+             "technology": ["React", "React Router", "Redux Toolkit"]
         },
         {
             "id": 5,
             "title": "Movie Mood",
-            "description": "lorem impsun 5",
-            "url": "https://movie-mood.vercel.app/"
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
+            "url": "https://movie-mood.vercel.app/",
+            "img": "./mockup1.webp",
+             "technology": ["React", "Nextjs", "Redux Toolkit"]
+        },
+         {
+            "id": 6,
+            "title": "Kombim.az",
+            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
+            "url": "https://www.kombim.az",
+            "img": "./mockup1.webp",
+             "technology": ["React", "React Router", "Redux Toolkit"]
         }
     ]
 }
