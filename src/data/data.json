@@ -50,5 +50,29 @@
             "img": "./mockup1.webp",
              "technology": ["React", "React Router", "Redux Toolkit"]
         }
+    ],
+
+    "openSource": [
+        {
+            "id": 1,
+            "title": "Dostudent",
+            "url": "https://github.com/iambabazada/DoStudent-Web",
+            "img": "/open_source_3.png"
+
+        },
+        {
+            "id": 2,
+            "title": "Eco friends",
+            "url": "https://github.com/iambabazada/hackathon",
+            "img": "/open_source_2.png"
+
+        },
+        {
+            "id": 3,
+            "title": "Etoolz",
+            "url": "https://github.com/iambabazada/e-toolz",
+            "img": "./open_source_1.png"
+        }
+      
     ]
 }

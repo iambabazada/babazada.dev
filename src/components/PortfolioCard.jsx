@@ -23,7 +23,7 @@ const PortfolioCard = ({ data }) => {
                         ))}
                     </div>
                     <div>
-                        <Link to={data?.url} className='flex items-center gap-2'>
+                        <Link to={data?.url} className='flex  justify-center gap-2'>
                             live demo <FiExternalLink />
                         </Link>
                         <Link to={data.github}>

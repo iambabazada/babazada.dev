@@ -3,6 +3,7 @@ import AboutImg from '@/assets/images/about.jpg'
 import styles from './About.module.css'
 import Slider from "react-slick";
 
+import CircleSvg from '@/assets/images/circle.png'
 
 const About = () => {
     const settings = {
@@ -17,14 +18,12 @@ const About = () => {
 
     return (
         <section className={styles.about_section}>
-
-
             <div className={styles.about_section_content_box}>
                 <div className={styles.about_section_content_img}>
                     <img src={AboutImg} alt="" />
                     <div className={styles.circle}>
                         <div className={styles.spinner}>
-                            Front end Developer
+                            <img src={CircleSvg} alt="" />
                         </div>
                     </div>
                 </div>

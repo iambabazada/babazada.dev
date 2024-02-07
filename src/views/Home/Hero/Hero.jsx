@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Hero.module.css'
 import Button from '../../../components/Button'
 import Person from '@/assets/images/iambabazada.jpg'
+import cvDownload from '@/assets/cv.pdf'
 
 const Hero = () => {
     return (
@@ -14,9 +15,16 @@ const Hero = () => {
                     </h1>
                     <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, totam.</p>
                     <div>
-                        <Button variant={"primary"} rounded size="lg">
-                            Download Cv
-                        </Button>
+                        <a
+                            href={cvDownload}
+                            download="Şəhriyar Babazadə (Frontend developer)"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <Button variant={"primary"} rounded size="lg">
+                                Download Cv
+                            </Button>
+                        </a>
                     </div>
                 </div>
                 <div className={styles.hero_section_img}>

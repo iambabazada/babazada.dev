@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Brand from '@/assets/babazadadev.png'
 import { Link } from 'react-router-dom'
 import Button from '../../../components/Button'
 import styles from './Navbar.module.css'

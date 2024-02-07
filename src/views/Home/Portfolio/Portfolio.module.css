@@ -2,19 +2,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .portfolio_section_content_box {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 60%;
+    width: 70%;
 }
 
 .portfolio_cards {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+}
+
+.open_source {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
