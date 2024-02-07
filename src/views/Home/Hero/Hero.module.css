@@ -1,5 +1,6 @@
 .hero_section {
     background-color: var(--third-color);
+    padding: 70px 170px;
 }
 
 
@@ -28,4 +29,31 @@
     border-radius: 100%;
     object-fit: cover;
     border: 5px solid var(--primary-color);
+}
+
+
+
+/* Media Query */
+
+
+@media screen and (max-width: 972px) {
+    .hero_section_content_box {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: row-reverse;
+        gap: 1.5rem;
+    }
+
+    .hero_section_img {
+        justify-content: center;
+        order: 1;
+    }
+
+    .hero_section_content {
+        align-items: center;
+        order: 2;
+    }
+
+    .hero_section {
+        padding: 70px 10px;
+    }
 }

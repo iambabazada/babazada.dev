@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Code and More",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
+            "description": "My first major milestone in my portfolio is crafting a website for a technology education course. This multipage, infographic-rich platform provides a dynamic space where students and instructors can engage. Beyond presenting course content, it enhances the educational process by facilitating easy access to resources for both students and instructors.",
             "url": "https://codemore.az",
             "github": "https://github.com/iambabazada/kombim-web",
             "img": "./mockup1.webp",
@@ -20,7 +20,7 @@
         {
             "id": 3,
             "title": "Kloun.az",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
+            "description": "Another notable project in my portfolio is Kloun.az, a sleek landing page dedicated to showcasing a mobile app. This website serves as a comprehensive guide, providing insights into the app's functionalities, interface, user feedback, and FAQs. It's designed to offer users a clear understanding of the app's features and benefits, making it an invaluable tool for both promotion and user engagement.",
             "url": "https://www.kloun.az/",
             "img": "./mockup1.webp",
              "technology": ["React", "React Router", "Redux Toolkit"]
@@ -29,23 +29,16 @@
         {
             "id": 4,
             "title": "Njooy.az",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
+            "description": "Another project in my portfolio is njooy.az, a website offering various services. This platform provides services such as sound programs, mascot characters, animation, and more. Users can both request services and obtain information about them through the website. njooy.az is designed to offer customers a wide range of services, catering to their needs and making services easily accessible.",
             "url": "https://www.njooy.az",
             "img": "./mockup1.webp",
              "technology": ["React", "React Router", "Redux Toolkit"]
         },
-        {
-            "id": 5,
-            "title": "Movie Mood",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
-            "url": "https://movie-mood.vercel.app/",
-            "img": "./mockup1.webp",
-             "technology": ["React", "Nextjs", "Redux Toolkit"]
-        },
+       
          {
-            "id": 6,
+            "id": 5,
             "title": "Kombim.az",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed",
+            "description": "My portfolio includes a landing page dedicated to showcasing heating systems services through an infographic website. Users can gather information about the services offered and even request services by providing their mobile number. Additionally, they can find answers to frequently asked questions, enhancing their understanding and facilitating their engagement with the services.",
             "url": "https://www.kombim.az",
             "img": "./mockup1.webp",
              "technology": ["React", "React Router", "Redux Toolkit"]
@@ -72,6 +65,12 @@
             "title": "Etoolz",
             "url": "https://github.com/iambabazada/e-toolz",
             "img": "./open_source_1.png"
+        },
+         {
+            "id": 4,
+            "title": "Movie Mood",
+            "url": "https://github.com/iambabazada/my-app",
+            "img": "./mockup1.webp"
         }
       
     ]

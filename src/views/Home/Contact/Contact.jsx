@@ -12,12 +12,12 @@ const Contact = () => {
     return (
         <section className='max-w-[1440px] mx-auto '>
             <div className="flex items-center justify-center h-screen">
-                <div className='flex flex-col h-full  '>
+                <div className='flex flex-col h-full '>
                     <div className='flex flex-col h-full justify-center gap-4'>
                         <h4 className='text-3xl text-center text-primary'>
                             Contact me
                         </h4>
-                        <div className='flex gap-6 border-[1px] border-primary rounded-lg py-3 px-5'>
+                        <div className='flex gap-6 mx-2 border-[1px] border-primary rounded-lg py-3 px-5'>
                             <a href="mailto:iambabazada@gmail.com" className='flex items-center gap-1'>
                                 <MdOutlineMailOutline />
                                 iambabazada@gmail.com
@@ -30,10 +30,10 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='mt-12 mb-2'>
+                    <div className='mt-12 mb-2 '>
                         <div>
                             <div className=" flex justify-center">
-                                <ul className='flex gap-6 text-xl text-primary'>
+                                <ul className='flex gap-6 max-[972px]:flex-col max-[972px]:text-center text-xl text-primary'>
                                     <li>
                                         <Link
                                             activeClass="navbar_active_menu"

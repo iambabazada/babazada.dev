@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../../../components/Button'
 import styles from './Navbar.module.css'
+import { IoIosMenu } from "react-icons/io";
+import { IoClose } from "react-icons/io5";
+
 
 const Navbar = () => {
 
@@ -15,31 +18,16 @@ const Navbar = () => {
         setNavActive(false)
     }
 
-    useEffect(() => {
-        const handleSize = () => {
-            if (window.innerWidth <= 768) {
-                closeMenu;
-            }
-        }
-
-        window.addEventListener("resize", handleSize)
-
-        return () => {
-            window.addEventListener("resize", handleSize)
-        }
-    }, [])
-
-
 
     return (
-        <nav className={`${styles.navbar_section} py-5`}>
-            <div className={`${styles.navbar_section_content} mx-auto container`}>
+        <nav className={`${styles.navbar_section} py-5 px-3`}>
+            <div className={`${styles.navbar_section_content} mx-auto `}>
                 <div className={styles.navbar_section_content_brand}>
                     <h1 className='text-2xl font-bold'>
                         babazada.dev
                     </h1>
                 </div>
-                <div className={styles.navbar_section_content_menu}>
+                <div className={`${styles.navbar_section_content_menu} ${navActive ? styles.active : ""}`}>
                     <ul>
                         <li>
                             <Link
@@ -95,6 +83,18 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
+                {
+                    !navActive ? (
+                        <button className={styles.menu} onClick={toogleNav}>
+                            <IoIosMenu />
+                        </button>
+                    ) : (
+                        <button className={styles.menu} onClick={toogleNav}>
+                            <IoClose />
+                        </button>
+                    )
+
+                }
                 <div className={styles.navbar_section_content_action}>
                     <Button variant={"outline"} size="md" rounded>
                         Contact me

@@ -26,3 +26,17 @@
     flex-direction: column;
     gap: 3rem;
 }
+
+
+/* media query */
+
+@media screen and (max-width: 972px) {
+    .portfolio_section_content_box {
+        width: 90%;
+    }
+
+    .portfolio_cards {
+        width: 100%;
+        gap: 2rem;
+    }
+}

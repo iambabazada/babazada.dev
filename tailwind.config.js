@@ -10,6 +10,9 @@ module.exports = {
         'accent': '#F3F5F7',
       },
     },
+    screens: {
+      'small': '300px',
+    }
   },
   plugins: [],
 }

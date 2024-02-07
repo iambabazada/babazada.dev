@@ -6,7 +6,61 @@
     margin: 0 auto;
 }
 
+.navbar_section {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+}
+
+
 .navbar_section_content_menu ul {
     display: flex;
     gap: 2rem;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width: 972px) {
+    .navbar_section_content_menu {
+        display: none;
+    }
+
+    .active {
+        background: white;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        width: 100%;
+        height: auto;
+        display: block;
+        position: fixed;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        bottom: 0px;
+        z-index: 9;
+        left: 0px;
+    }
+
+    .active ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu svg {
+        width: 32px;
+        height: 32px;
+    }
+
+    .navbar_section_content_action {
+        display: none;
+    }
+
+
 }
