@@ -22,7 +22,7 @@
             "title": "Kloun.az",
             "description": "Another notable project in my portfolio is Kloun.az, a sleek landing page dedicated to showcasing a mobile app. This website serves as a comprehensive guide, providing insights into the app's functionalities, interface, user feedback, and FAQs. It's designed to offer users a clear understanding of the app's features and benefits, making it an invaluable tool for both promotion and user engagement.",
             "url": "https://www.kloun.az/",
-            "img": "./mockup1.webp",
+            "img": "./klounaz.webp",
              "technology": ["React", "React Router", "Redux Toolkit"]
         },
        
