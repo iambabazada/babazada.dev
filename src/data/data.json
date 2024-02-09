@@ -70,7 +70,13 @@
             "id": 4,
             "title": "Movie Mood",
             "url": "https://github.com/iambabazada/my-app",
-            "img": "./mockup1.webp"
+            "img": "./open_source_4.png"
+        },
+         {
+            "id": 5,
+            "title": "Nexcent",
+            "url": "https://github.com/iambabazada/nexcent",
+            "img": "./open_source_5.png"
         }
       
     ]

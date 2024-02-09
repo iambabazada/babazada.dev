@@ -27,7 +27,7 @@ const Navbar = () => {
                         babazada.dev
                     </h1>
                 </div>
-                <div className={`${styles.navbar_section_content_menu} ${navActive ? styles.active : ""}`}>
+                <div className={`${styles.navbar_section_content_menu} ${navActive ? styles.active : ""} ${navActive ? "animate__slideInUp animate__animated" : ""}`}>
                     <ul>
                         <li>
                             <Link

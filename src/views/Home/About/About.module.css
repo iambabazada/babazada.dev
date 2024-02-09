@@ -73,4 +73,13 @@
         grid-template-columns: repeat(1, 1fr);
         width: 90%;
     }
+
+    .circle {
+        width: 70px;
+        height: 70px;
+        bottom: -8px;
+        right: -8px;
+
+    }
+
 }

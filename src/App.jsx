@@ -6,7 +6,7 @@ import 'animate.css';
 
 const App = () => {
   return (
-    <div >
+    <div className='w-full'>
       <BrowserRouter>
         <Navbar />
         <Routes>

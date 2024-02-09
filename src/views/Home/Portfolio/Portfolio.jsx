@@ -13,11 +13,14 @@ import "slick-carousel/slick/slick-theme.css";
 const Portfolio = () => {
 
     const settings = {
-        dots: true,
-        infinite: false,
-        speed: 500,
+        infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
+        autoplay: true,
+        speed: 1000,
+        autoplaySpeed: 5000,
+        cssEase: "linear",
+        dots: true,
         initialSlide: 0,
         responsive: [
             {
