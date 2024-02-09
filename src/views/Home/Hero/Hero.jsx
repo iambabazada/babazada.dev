@@ -11,7 +11,11 @@ const Hero = () => {
             <div className={styles.bg_video}>
                 <div className={styles.overlay}>
                 </div>
-                <video src={HeroVideo} autoPlay={true} loop={true} controls={true} className={styles.video}></video>
+                <video src={HeroVideo}
+                    className={styles.video}
+                    muted autoPlay={true}
+                    loop={true}
+                />
             </div>
             <div className={`${styles.hero_section_content_box} `}>
                 <div className={styles.hero_section_content}>

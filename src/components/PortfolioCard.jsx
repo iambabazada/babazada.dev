@@ -8,10 +8,12 @@ const PortfolioCard = ({ data }) => {
             <div className={`w-full ${data?.id % 2 == 0 ? 'order-1' : ''} max-[972px]:order-none`}>
                 <img src={data?.img} className='w-full rounded-md' alt="" />
             </div>
-            <div className="portfolio_card_content  flex justify-start text-center ">
+            <div className="portfolio_card_content  flex justify-start text-start ">
                 <div className='flex flex-col gap-6'>
-                    <div className=' text-xl font-semibold text-primary'>
-                        {data?.title}
+                    <div className=' text-2xl space-y-6 font-semibold text-primary'>
+                        <p>
+                            {data?.title}
+                        </p>
                         <p className='text-black text-sm'>
                             {data?.description}
                         </p>
