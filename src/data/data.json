@@ -39,7 +39,7 @@
             "id": 5,
             "title": "Kombim.az",
             "description": "My portfolio includes a landing page dedicated to showcasing heating systems services through an infographic website. Users can gather information about the services offered and even request services by providing their mobile number. Additionally, they can find answers to frequently asked questions, enhancing their understanding and facilitating their engagement with the services.",
-            "url": "https://www.kombim.aaz",
+            "url": "https://www.kombim.az",
             "img": "./kombimaz.png",
              "technology": ["React", "React Router", "Redux Toolkit"]
         }

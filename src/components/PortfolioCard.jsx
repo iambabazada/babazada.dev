@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FiExternalLink } from "react-icons/fi";
+import { FiArrowUpRight } from "react-icons/fi";
 
 const PortfolioCard = ({ data }) => {
     return (
@@ -10,24 +10,23 @@ const PortfolioCard = ({ data }) => {
             </div>
             <div className="portfolio_card_content  flex justify-start text-start ">
                 <div className='flex flex-col gap-6'>
-                    <div className=' text-2xl space-y-6 font-semibold text-primary'>
-                        <p>
-                            {data?.title}
-                        </p>
-                        <p className='text-black text-sm'>
+                    <div className='space-y-6 font-semibold text-primary'>
+                        <Link to={data?.url} className='text-3xl flex items-center gap-2'>
+                            {data?.title} <FiArrowUpRight />
+                        </Link>
+                        <p className='text-black font-light text-sm'>
                             {data?.description}
                         </p>
                     </div>
 
-                    <div className='flex gap-4 mt-6 justify-center'>
+                    <div className='flex gap-4 mt-6 '>
                         {data?.technology?.map((item, index) => (
-                            <span className='bg-secondary text-white rounded py-2 px-4'>{item}</span>
+                            <span class="whitespace-nowrap rounded-sm bg-primary px-2.5 py-0.5 text-sm text-white">
+                                {item}
+                            </span>
                         ))}
                     </div>
                     <div>
-                        <Link to={data?.url} className='flex  justify-center gap-2'>
-                            live demo <FiExternalLink />
-                        </Link>
                         <Link to={data.github}>
                         </Link>
                     </div>

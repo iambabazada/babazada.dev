@@ -53,7 +53,7 @@ const Portfolio = () => {
     return (
         <section className={styles.portfolio_section}>
             <div className={`${styles.portfolio_section_content_box}`}>
-                <div className='flex flex-col gap-2'>
+                <div className='flex flex-col gap-2 mb-6'>
                     <h3 className='text-primary text-xl font-medium'>Portfolio</h3>
                     <p className='text-primary text-xl font-light'>A showcase of my passion for design and development.</p>
                 </div>

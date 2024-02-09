@@ -40,9 +40,9 @@ const About = () => {
                     </span>
                     <div className='flex gap-4 flex-wrap '>
                         {skills.map((skill, index) => (
-                            <div className='py-1 px-2 bg-secondary text-white rounded text-sm' >
+                            <span key={index} class="whitespace-nowrap rounded-sm bg-secondary px-2.5 py-0.5 text-sm text-white">
                                 {skill}
-                            </div>
+                            </span>
                         ))}
                     </div>
                 </div>
