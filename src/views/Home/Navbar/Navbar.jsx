@@ -49,9 +49,10 @@ const Navbar = () => {
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
-                                to="portfolioSection"
-                                className={styles.navbar_menu_item}                            >
-                                Portfolio
+                                to="about_section"
+                                className={styles.navbar_menu_item}
+                            >
+                                About Me
                             </Link>
                         </li>
                         <li>
@@ -61,12 +62,12 @@ const Navbar = () => {
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
-                                to="about_section"
-                                className={styles.navbar_menu_item}
-                            >
-                                About Me
+                                to="portfolioSection"
+                                className={styles.navbar_menu_item}                            >
+                                Portfolio
                             </Link>
                         </li>
+
                         <li>
                             <Link
                                 activeClass={styles.navbar_active_menu}
