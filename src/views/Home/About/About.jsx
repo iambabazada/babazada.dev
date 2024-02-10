@@ -17,7 +17,7 @@ const About = () => {
     const skills = ["Html Css", "Javascript", "React", "Redux toolkit", "React router", "TailwindCss", "Restfull Api", "Axios", "Responsive",]
 
     return (
-        <section className={styles.about_section}>
+        <section id='about_section' className={styles.about_section}>
             <div className={styles.about_section_content_box}>
                 <div className={styles.about_section_content_img}>
                     <img src={AboutImg} alt="" />

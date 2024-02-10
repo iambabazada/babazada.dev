@@ -21,7 +21,7 @@ const PortfolioCard = ({ data }) => {
 
                     <div className='flex gap-4 mt-6 '>
                         {data?.technology?.map((item, index) => (
-                            <span class="whitespace-nowrap rounded-sm bg-primary px-2.5 py-0.5 text-sm text-white">
+                            <span key={index} class="whitespace-nowrap rounded-sm bg-primary px-2.5 py-0.5 text-sm text-white">
                                 {item}
                             </span>
                         ))}

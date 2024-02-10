@@ -2,7 +2,7 @@ import React from 'react'
 import { SiLinkedin } from "react-icons/si";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { LiaCopyright } from "react-icons/lia";
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 
 
@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const Contact = () => {
     return (
-        <section className='max-w-[1440px] mx-auto '>
+        <section id='contact_section' className='max-w-[1440px] mx-auto '>
             <div className="flex items-center justify-center h-screen">
                 <div className='flex flex-col h-full '>
                     <div className='flex flex-col h-full justify-center gap-4'>

@@ -51,7 +51,7 @@ const Portfolio = () => {
     };
 
     return (
-        <section className={styles.portfolio_section}>
+        <section id='portfolioSection' className={styles.portfolio_section}>
             <div className={`${styles.portfolio_section_content_box}`}>
                 <div className='flex flex-col gap-2 mb-6'>
                     <h3 className='text-primary text-xl font-medium'>Portfolio</h3>
@@ -67,7 +67,7 @@ const Portfolio = () => {
                     <h3 className='text-primary text-xl font-medium'>Open Source Portfolios</h3>
                     <Slider {...settings}>
                         {Data?.openSource.map((item) => (
-                            <Link to={item.url} className='flex w-full pl-12 flex-col gap-3'>
+                            <Link to={item.url} key={item.id} className='flex w-full pl-12 flex-col gap-3'>
                                 <div >
                                     <img src={item?.img} alt="" />
                                 </div>

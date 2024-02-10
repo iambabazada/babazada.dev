@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
 import Button from '../../../components/Button'
 import styles from './Navbar.module.css'
 import { IoIosMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
+import { Link } from 'react-scroll';
 
 
 const Navbar = () => {
@@ -31,52 +31,51 @@ const Navbar = () => {
                     <ul>
                         <li>
                             <Link
-                                activeClass="navbar_active_menu"
+                                activeClass={styles.navbar_active_menu}
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
                                 to={"hero_section"}
-                                className='navbar_menu_item'
+                                className={styles.navbar_menu_item}
                             >
                                 Home
                             </Link>
                         </li>
                         <li>
                             <Link
-                                activeClass="navbar_active_menu"
+                                activeClass={styles.navbar_active_menu}
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
-                                to={"hero_section"}
-                                className='navbar_menu_item'
-                            >
+                                to="portfolioSection"
+                                className={styles.navbar_menu_item}                            >
                                 Portfolio
                             </Link>
                         </li>
                         <li>
                             <Link
-                                activeClass="navbar_active_menu"
+                                activeClass={styles.navbar_active_menu}
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
-                                to={"hero_section"}
-                                className='navbar_menu_item'
+                                to="about_section"
+                                className={styles.navbar_menu_item}
                             >
                                 About Me
                             </Link>
                         </li>
                         <li>
                             <Link
-                                activeClass="navbar_active_menu"
+                                activeClass={styles.navbar_active_menu}
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
-                                to={"hero_section"}
-                                className='navbar_menu_item'
+                                to="testimonials"
+                                className={styles.navbar_menu_item}
                             >
                                 Testimonials
                             </Link>
@@ -96,9 +95,19 @@ const Navbar = () => {
 
                 }
                 <div className={styles.navbar_section_content_action}>
-                    <Button variant={"outline"} size="md" rounded>
-                        Contact me
-                    </Button>
+                    <Link
+                        activeClass="navbar_active_menu"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        to="contact_section"
+                        className='navbar_menu_item'
+                    >
+                        <Button variant={"outline"} size="md" rounded>
+                            Contact me
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </nav>
