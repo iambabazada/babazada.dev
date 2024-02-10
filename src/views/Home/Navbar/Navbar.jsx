@@ -14,9 +14,8 @@ const Navbar = () => {
         setNavActive(!navActive)
     }
 
-    const closeMenu = () => {
-        setNavActive(false)
-    }
+
+    console.log(navActive);
 
 
     return (
@@ -29,8 +28,9 @@ const Navbar = () => {
                 </div>
                 <div className={`${styles.navbar_section_content_menu} ${navActive ? styles.active : ""} ${navActive ? "animate__slideInUp animate__animated" : ""}`}>
                     <ul>
-                        <li>
+                        <li >
                             <Link
+                                onClick={toogleNav}
                                 activeClass={styles.navbar_active_menu}
                                 spy={true}
                                 smooth={true}
@@ -44,6 +44,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link
+                                onClick={toogleNav}
                                 activeClass={styles.navbar_active_menu}
                                 spy={true}
                                 smooth={true}
@@ -57,6 +58,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link
+                                onClick={toogleNav}
                                 activeClass={styles.navbar_active_menu}
                                 spy={true}
                                 smooth={true}
@@ -70,6 +72,7 @@ const Navbar = () => {
 
                         <li>
                             <Link
+                                onClick={toogleNav}
                                 activeClass={styles.navbar_active_menu}
                                 spy={true}
                                 smooth={true}
