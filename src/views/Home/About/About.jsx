@@ -14,7 +14,7 @@ const About = () => {
         slidesToScroll: 1
     };
 
-    const skills = ["Html Css", "Javascript", "React", "Redux toolkit", "React router", "TailwindCss", "Restfull Api", "Axios", "Responsive",]
+    const skills = ["Html", "Css", "Javascript", "React", "Redux toolkit", "React router", "TailwindCss", "Restfull Api", "Axios", "Git-github", "Typescript", "Nextjs", "Responsive"]
 
     return (
         <section id='about_section' className={styles.about_section}>
